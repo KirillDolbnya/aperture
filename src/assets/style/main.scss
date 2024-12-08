@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-height: 100svw;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  background: #000000;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+

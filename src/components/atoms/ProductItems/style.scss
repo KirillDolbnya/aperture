@@ -1,0 +1,41 @@
+.app-product{
+  background: #000000;
+  padding-top: 120px;
+  padding-bottom: 100px;
+
+  &__container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    h2{
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 105%;
+      text-align: center;
+      color: #fff;
+    }
+
+    p{
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 23px;
+      line-height: 130%;
+      text-align: center;
+      color: #c0c0c0;
+    }
+  }
+
+  &__items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}

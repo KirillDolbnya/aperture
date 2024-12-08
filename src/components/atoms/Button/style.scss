@@ -1,0 +1,44 @@
+.app-header__button{
+  padding: 9px 20px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  transition: all .3s;
+  border: none;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0.03em;
+  color: #000;
+
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+}
+
+.button{
+  border: none;
+  padding: 5px 10px 5px 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  transition: all .3s;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0.03em;
+  color: #000;
+
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+}

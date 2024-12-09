@@ -1,5 +1,5 @@
 import "./style.scss"
-import { Button } from "../Button/Button";
+import { Button } from "@/components/atoms/Button/Button";
 
 export function ProductItem({title,description,image}) {
     return (
@@ -8,7 +8,7 @@ export function ProductItem({title,description,image}) {
                 <p className="app-product-item__title">{title}</p>
                 <p className="app-product-item__desc">{description}</p>
             </div>
-            <Button classname="button">
+            <Button className="button">
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_2_66)">
                         <path

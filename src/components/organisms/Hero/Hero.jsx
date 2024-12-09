@@ -1,5 +1,5 @@
-import { images }  from '../../../assets/images/index';
-import { Tag }  from '../Tag/Tag';
+import { images }  from '@/assets/images/index.js';
+import { Tag }  from '@/components/atoms/Tag/Tag.jsx';
 import "./style.scss"
 
 export function Hero() {

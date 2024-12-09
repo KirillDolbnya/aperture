@@ -1,6 +1,6 @@
-import { Header } from "../atoms/Header/Header";
-import { Hero } from "../atoms/Hero/Hero";
-import { ProductItems } from "../atoms/ProductItems/ProductItems";
+import { Header } from "../organisms/Header/Header";
+import { Hero } from "../organisms/Hero/Hero";
+import { ProductItems } from "../organisms/ProductItems/ProductItems";
 
 export function HomeTemplate() {
     return (

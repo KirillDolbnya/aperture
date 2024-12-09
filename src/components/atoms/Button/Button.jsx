@@ -1,8 +1,8 @@
 import './style.scss';
 
-export const Button = ({children, classname}) => {
+export const Button = ({children, className}) => {
     return (
-        <button className={classname}>
+        <button className={className}>
             {children}
         </button>
     )

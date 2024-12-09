@@ -1,0 +1,22 @@
+.navbar-wrap{
+  display: flex;
+  align-items: center;
+  gap: 31px;
+
+  .navbar{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .navbar-item{
+    a{
+      text-decoration: none;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 154%;
+      color: #fff;
+    }
+  }
+}

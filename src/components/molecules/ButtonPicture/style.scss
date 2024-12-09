@@ -1,6 +1,9 @@
-.button{
-  padding: 9px 20px;
+.button-picture{
+  display: flex;
+  align-items: center;
+  gap: 6px;
   background: #FFFFFF;
+  padding: 5px 10px 5px 4px;
   border-radius: 10px;
   transition: all .3s;
   border: none;
@@ -16,5 +19,9 @@
   &:hover{
     cursor: pointer;
     transform: scale(1.05);
+  }
+
+  img{
+    flex-shrink: 0;
   }
 }

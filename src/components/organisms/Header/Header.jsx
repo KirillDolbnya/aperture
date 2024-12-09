@@ -1,6 +1,5 @@
-import { Button } from "@/components/atoms/Button/Button";
 import { Logo } from "@/components/atoms/Logo/Logo";
-import { Link } from "react-router-dom";
+import { Navbar } from "@/components/molecules/Navbar/Navbar";
 import "./style.scss"
 
 export function Header() {
@@ -8,26 +7,8 @@ export function Header() {
         <header className="app-header">
             <div className="container">
                 <div className="app-header__container">
-                    <Logo place="header" />
-                    <nav className="app-header__nav">
-                        <ul className="app-header__nav-links">
-                            <li className="app-header__nav-link">
-                                <Link to="/">Business areas</Link>
-                            </li>
-                            <li className="app-header__nav-link">
-                                <Link to="/">Featured images</Link>
-                            </li>
-                            <li className="app-header__nav-link">
-                                <Link to="/">Gear cage</Link>
-                            </li>
-                            <li className="app-header__nav-link">
-                                <Link to="/">Contact</Link>
-                            </li>
-                        </ul>
-                        <Button className="app-header__button">
-                            Get template
-                        </Button>
-                    </nav>
+                    <Logo />
+                    <Navbar />
                 </div>
             </div>
         </header>

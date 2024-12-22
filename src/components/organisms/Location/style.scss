@@ -1,0 +1,49 @@
+.app-location{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  &__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  &__text{
+    width: 100%;
+    max-width: 300px;
+  }
+
+  &__title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  &__subtitle{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #c0c0c0;
+  }
+
+  &__tag{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+  }
+}

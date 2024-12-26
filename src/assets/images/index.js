@@ -14,6 +14,7 @@ import logoClientTwo from './logo-2.png';
 import logoClientThree from './logo-3.png';
 import logoClientFour from './logo-4.png';
 import logoClientFive from './logo-5.png';
+import tools from './tools.png';
 
 export const images = {
     logo: logo,
@@ -32,4 +33,5 @@ export const images = {
     logoClientThree: logoClientThree,
     logoClientFour: logoClientFour,
     logoClientFive: logoClientFive,
+    tools: tools,
 };

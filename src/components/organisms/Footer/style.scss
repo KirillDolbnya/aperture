@@ -1,0 +1,126 @@
+.app-footer{
+
+  &__top{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #FFF;
+
+    &--left{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 20px;
+
+      p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 154%;
+        color: #c0c0c0;
+      }
+    }
+
+    &--right{
+      display: flex;
+      align-items: start;
+      gap: 50px;
+
+      &-navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+
+        p{
+
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 143%;
+          letter-spacing: 0.14em;
+          text-transform: uppercase;
+          color: #c0c0c0;
+        }
+      }
+    }
+  }
+
+  &__center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-bottom: 2px solid #FFF;
+
+
+    &--text{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 20px;
+
+      &__title{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #fff;
+      }
+
+      &__subtitle{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 154%;
+        color: #c0c0c0;
+      }
+    }
+
+    &--form{
+      padding: 7px;
+      background: #FFF;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      width: 458px;
+      border-radius: 12px;
+
+      &__input{
+        padding: 12px;
+        width: 100%;
+      }
+
+      &__btn{
+        width: 63px;
+        height: 30px;
+        background: #000;
+      }
+    }
+  }
+
+  &__bottom{
+    padding-top: 56px;
+    padding-bottom: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--title{
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 143%;
+      color: #c0c0c0;
+    }
+
+    &--socials{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+
+}

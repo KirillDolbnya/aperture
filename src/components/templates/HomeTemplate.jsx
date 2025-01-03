@@ -6,6 +6,7 @@ import { Clients } from "@/components/organisms/Clients/Clients";
 import { Connection } from "@/components/organisms/Connection/Connection";
 import { Tools } from "@/components/organisms/Tools/Tools";
 import { images } from "@/assets/images/index.js";
+import { Footer } from "@/components/organisms/Footer/Footer";
 
 export function HomeTemplate() {
     const tagsJapan = [
@@ -76,6 +77,7 @@ export function HomeTemplate() {
         <Clients title="Past clients" subtitle="Trusted by your favourite companies" />
         <Location title="Star fall in the Himalayas" subtitle="Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula." image={images.nepal} tagsData={tagsNepal} />
         <Connection title="Need help with photography or videography?" text="We're here for you!" />
+        <Footer/>
         </>
     )
 }

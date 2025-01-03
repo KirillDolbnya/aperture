@@ -2,17 +2,11 @@ import "./style.scss";
 import { Button } from "@/components/atoms/Button/Button";
 import { Link } from "react-router-dom";
 
-export function Navbar() {
-    const links = [
-        { name: 'Business areas' },
-        { name: 'Featured images' },
-        { name: 'Gear cage' },
-        { name: 'Contact' },
-    ];
+export function Navbar({className, links, disabled}) {
 
     return (
         <nav className="navbar-wrap">
-            <ul className="navbar">
+            <ul className={className}>
                 {
                     links.map(link =>
                         <li className="navbar-item">
@@ -22,7 +16,7 @@ export function Navbar() {
                 }
             </ul>
 
-            <Button onClick={(e) => e.preventDefault()}>
+            <Button onClick={(e) => e.preventDefault()} disable={disabled}>
                 Get template
             </Button>
         </nav>
